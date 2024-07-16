@@ -1,0 +1,6 @@
+name: 'Associates Form'
+type: module
+description: 'Módulo para aceitar formulários em Excel'
+core_version_requirement: ^9 || ^10
+package: Custom
+version: '2.0'

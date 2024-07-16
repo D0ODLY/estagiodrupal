@@ -1,0 +1,7 @@
+associates.excel_upload_form:
+  path: '/admin/associates-form/upload'
+  defaults:
+    _form: 'Drupal\associates_form\Form\AssociatesForm'
+    _title: 'Upload Excel Form'
+  requirements:
+    _permission: 'administer site configuration'

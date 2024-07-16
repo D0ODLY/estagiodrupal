@@ -1,0 +1,9 @@
+{
+  "name": "drupal/phpspreadsheet",
+  "description": "PhpSpreadheet is a php library for exporting data to excel file.",
+  "type": "drupal-module",
+  "homepage": "http://drupal.org/project/phpspreadsheet",
+  "require": {
+    "phpoffice/phpspreadsheet": "~1"
+  }
+}
