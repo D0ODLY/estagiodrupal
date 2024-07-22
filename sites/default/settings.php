@@ -911,3 +911,4 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_3EEBUhfKCaGTIBXR2CrRYhYQVkbFQedMDC0dZxD4B_hjvPpDHHs0ql9lJG1S_ZfzrafT9dcGBg/sync';
+$settings['theme_debug'] = TRUE;

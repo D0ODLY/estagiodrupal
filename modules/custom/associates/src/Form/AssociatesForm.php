@@ -85,7 +85,7 @@ class AssociatesForm extends FormBase {
       $file = File::load($file_id);
 
       if ($file) {
-        // Set the file status to permanent.
+        
         $file->setPermanent();
         $file->save();
 

@@ -1,0 +1,16 @@
+name: 'Sub Radix'
+type: theme
+description: 'Um sub-tema do Radix.'
+core_version_requirement: ^9 || ^10
+package: Custom
+base theme: radix
+libraries:
+  - sub_radix/global-styling
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

@@ -1,0 +1,18 @@
+.paragraphs-3333 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .paragraph-column {
+    flex: 1 1 30%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .paragraph-column {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
