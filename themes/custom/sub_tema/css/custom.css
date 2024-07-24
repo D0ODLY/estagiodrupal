@@ -1,0 +1,26 @@
+.custom-card {
+    background-color: #333; /* Cor de fundo */
+    border: none; /* Remover borda */
+    border-radius: 15px; /* Bordas arredondadas */
+    color: #fff; /* Cor do texto */
+  }
+  
+  .custom-card-title {
+    font-size: 1.5rem; /* Tamanho da fonte do título */
+    font-weight: 300; /* Peso da fonte do título */
+  }
+  
+  .custom-card-text {
+    font-size: 1rem; /* Tamanho da fonte do texto */
+    font-weight: 200; /* Peso da fonte do texto */
+  }
+  
+  .custom-card-img-top {
+    border-top-left-radius: 15px; /* Bordas arredondadas na parte superior da imagem */
+    border-top-right-radius: 15px; /* Bordas arredondadas na parte superior da imagem */
+  }
+  
+  .custom-mb-4 {
+    margin-bottom: 1.5rem !important; /* Margem inferior */
+  }
+  

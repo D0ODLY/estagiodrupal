@@ -1,4 +1,4 @@
-name: 'Sub Radix'
+name: 'Sub Radix' 
 type: theme
 description: 'Um sub-tema do Radix.'
 core_version_requirement: ^9 || ^10

@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sub_tema
+id: sub_tema_page_title
+theme: sub_tema
+region: header
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: "Page title"
+  label_display: "0"
+  provider: core
+visibility: {}

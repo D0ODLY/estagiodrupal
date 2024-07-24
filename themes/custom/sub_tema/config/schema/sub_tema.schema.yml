@@ -1,0 +1,5 @@
+# Schema for the configuration files of the sub_tema theme.
+
+sub_tema.settings:
+  type: theme_settings
+  label: 'sub_tema settings'

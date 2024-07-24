@@ -1,0 +1,42 @@
+name: sub_tema
+description: ''
+screenshot: screenshot.png
+'alt text': 'sub_tema theme screenshot'
+core_version_requirement: ^10
+version: 1.0.0
+engine: twig
+type: theme
+'base theme': radix
+starterkit: true
+dependencies:
+  - 'drupal:serialization'
+'interface translation project': sub_tema
+'interface translation server pattern': themes/custom/sub_tema/translations/%language.po
+regions:
+  navbar_branding: 'Navbar branding'
+  navbar_left: 'Navbar left'
+  navbar_right: 'Navbar right'
+  header: Header
+  content: Content
+  page_bottom: 'Page bottom'
+  footer: Footer
+libraries:
+  - sub_tema/style
+ckeditor5-stylesheets:
+  - build/css/main.style.css
+libraries-extend:
+  core/drupal.ajax:
+    - sub_tema/drupal.ajax
+  core/drupal.checkbox:
+    - sub_tema/drupal.checkbox
+  core/drupal.dialog:
+    - sub_tema/drupal.dialog
+  core/drupal.dialog.ajax:
+    - sub_tema/drupal.dialog.ajax
+  core/drupal.message:
+    - sub_tema/drupal.message
+  core/drupal.progress:
+    - sub_tema/drupal.progress
+  clientside_validation_jquery/cv.jquery.validate:
+    - sub_tema/jquery.validate
+generator: 'radix_starterkit:1.0.0'

@@ -1,0 +1,21 @@
+{# ficheiro: templates/paragraph--card-list.html.twig #}
+
+<div class="container">
+  <div class="d-flex flex-row flex-wrap">
+    {% for item in paragraph.field_cards %}
+      <div class="col-12 col-md-6 p-2">
+        <div class="card">
+          {% if item.entity.field_media.entity %}
+            {% set media = item.entity.field_media.entity %}
+            {% set image = media.field_media_image.entity %}
+            <img src="{{ file_url(image.uri.value) }}" class="card-img-top" alt="{{ image.alt }}">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ item.entity.field_title.value }}</h5>
+            <p class="card-text">{{ item.entity.field_description.value }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
